@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "http://www.example.com"
 title: OAIQIY NOTE
 paginate: 5
 theme: PaperMod
@@ -16,9 +16,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: OAIQIY NOTE
+  description: "OAIQIY's NOTE"
+  keywords: [Blog, Note, Java]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
