@@ -30,7 +30,7 @@ params:
   ShowShareButtons: true 
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -39,8 +39,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -82,15 +82,15 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Oaiqiy"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "oaiqiy"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "oaiqiy"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "oaiqiy"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -98,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Oaiqiy/note-md"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
