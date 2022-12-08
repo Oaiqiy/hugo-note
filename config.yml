@@ -100,7 +100,7 @@ params:
   editPost:
     URL: "https://github.com/Oaiqiy/note-md"
     Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    appendFilePath: false # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
